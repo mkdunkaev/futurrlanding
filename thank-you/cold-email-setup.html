@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>You're Booked — Watch This Before Our Call | Futurr Digital</title>
+  <title>You're Booked. Watch This Before Our Call | Futurr Digital</title>
   <meta name="robots" content="noindex, nofollow" />
   <link rel="icon" type="image/png" href="/favicon.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -23,7 +23,7 @@
 
     a { color: inherit; text-decoration: none; }
 
-    .page { max-width: 760px; margin: 0 auto; padding: 0 20px; }
+    .page { max-width: 960px; margin: 0 auto; padding: 0 20px; }
 
     /* ── HEADER ── */
     header {
@@ -54,7 +54,7 @@
       letter-spacing: -0.5px;
       line-height: 1.3;
       color: #111;
-      max-width: 620px;
+      max-width: 800px;
       margin: 0 auto;
     }
 
@@ -151,7 +151,7 @@
     .cs-item { margin-bottom: 48px; }
     .cs-item:last-child { margin-bottom: 0; }
     .cs-title {
-      font-size: 17px;
+      font-size: 22px;
       font-weight: 700;
       color: #111;
       margin-bottom: 14px;
@@ -202,10 +202,40 @@
       color: #111;
       margin-bottom: 4px;
     }
+    .hl { color: #1C3D9C; font-weight: 800; }
+
     .bullet-desc {
       font-size: 14px;
       color: #444;
       line-height: 1.65;
+    }
+
+    /* ── PROOF WALL ── */
+    .proof-section {
+      margin: 48px 0;
+      width: calc(100% + 160px);
+      margin-left: -80px;
+    }
+    @media (max-width: 900px) {
+      .proof-section { width: 100%; margin-left: 0; }
+    }
+    .proof-section h2 {
+      font-size: 22px;
+      font-weight: 800;
+      color: #111;
+      margin-bottom: 24px;
+      text-align: center;
+    }
+    .proof-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .proof-grid img {
+      width: 100%;
+      border-radius: 8px;
+      border: 1px solid #e5e5e5;
+      display: block;
     }
 
     /* ── QUALIFIER ── */
@@ -252,7 +282,7 @@
   <!-- THANK YOU -->
   <div class="thankyou">
     <div class="thankyou-label">Your call is confirmed ✓</div>
-    <h1>Thank you for booking. Here's how we use AI-powered cold email to generate 10–30 qualified sales calls per month — watch the video below for full details and pricing before our call.</h1>
+    <h1>Thank you for booking. Here's how we use AI-powered cold email to generate <span class="hl">10–30 qualified sales calls per month</span>. Watch the video below for full details and pricing before our call.</h1>
   </div>
 
   <!-- MAIN VSL -->
@@ -284,14 +314,14 @@
         <div class="bullet-num">1</div>
         <div>
           <div class="bullet-title">No Expensive Agency Retainers</div>
-          <div class="bullet-desc">No bloated monthly retainer to an agency that can't prove results. A one-time setup fee, then straightforward monthly costs for infrastructure and campaign management — that's it.</div>
+          <div class="bullet-desc">No bloated monthly retainer to an agency that can't prove results. A one-time setup fee, then straightforward monthly costs for infrastructure and campaign management. That's it.</div>
         </div>
       </li>
       <li>
         <div class="bullet-num">2</div>
         <div>
           <div class="bullet-title">Dedicated Sending Infrastructure</div>
-          <div class="bullet-desc">Automatic IP rotation, load balancing, blacklist detection, isolated sending environments, and full DMARC/SPF/DKIM monitoring — built to keep your emails landing in primary inboxes.</div>
+          <div class="bullet-desc">Automatic IP rotation, load balancing, blacklist detection, isolated sending environments, and full DMARC/SPF/DKIM monitoring, built to keep your emails landing in primary inboxes.</div>
         </div>
       </li>
       <li>
@@ -305,7 +335,7 @@
         <div class="bullet-num">4</div>
         <div>
           <div class="bullet-title">We Handle Everything for You</div>
-          <div class="bullet-desc">Don't spend weeks figuring out the tech, the copy, and the targeting yourself. We set it all up and run it — you just show up to calls.</div>
+          <div class="bullet-desc">Don't spend weeks figuring out the tech, the copy, and the targeting yourself. We set it all up and run it. You just show up to calls.</div>
         </div>
       </li>
     </ul>
@@ -318,7 +348,7 @@
     <h2>See how other B2B companies are getting results:</h2>
 
     <div class="cs-item">
-      <div class="cs-title">How a construction firm booked 200+ qualified sales calls, signed 23 new clients, and generated $408K in pipeline with our cold email system</div>
+      <div class="cs-title">How a construction firm booked <span class="hl">200+ qualified sales calls</span>, signed <span class="hl">23 new clients</span>, and generated <span class="hl">$408K in pipeline</span> with our cold email system</div>
       <div class="cs-video-wrap">
         <iframe src="https://fast.wistia.net/embed/iframe/iej2ma30au?videoFoam=true"
           title="C Level CDs Case Study" allowtransparency="true" frameborder="0" scrolling="no"
@@ -327,7 +357,7 @@
     </div>
 
     <div class="cs-item">
-      <div class="cs-title">How a recruiting agency booked 15 qualified meetings, closed 2 deals, and generated $620K in pipeline within the first month of launching</div>
+      <div class="cs-title">How a recruiting agency booked <span class="hl">15 qualified meetings</span>, closed <span class="hl">2 deals</span>, and generated <span class="hl">$620K in pipeline</span> within the first month of launching</div>
       <div class="cs-video-wrap">
         <iframe src="https://fast.wistia.net/embed/iframe/4j0cstf1lh?videoFoam=true"
           title="Marnect Case Study" allowtransparency="true" frameborder="0" scrolling="no"
@@ -336,7 +366,7 @@
     </div>
 
     <div class="cs-item">
-      <div class="cs-title">How a tax firm booked 155 appointments and closed 31 clients within the first 12 months with a fully managed outbound system</div>
+      <div class="cs-title">How a tax firm booked <span class="hl">155 appointments</span> and closed <span class="hl">31 clients</span> within the first 12 months with a fully managed outbound system</div>
       <div class="cs-video-wrap">
         <iframe src="https://fast.wistia.net/embed/iframe/gf2vb4egsg?videoFoam=true"
           title="UTP Case Study" allowtransparency="true" frameborder="0" scrolling="no"
@@ -345,7 +375,7 @@
     </div>
 
     <div class="cs-item">
-      <div class="cs-title">How a creative agency booked 11 meetings in month one and closed a $12K monthly retainer in 30 days — from zero pipeline</div>
+      <div class="cs-title">How a creative agency booked <span class="hl">11 meetings in month one</span> and closed a <span class="hl">$12K monthly retainer in 30 days</span>, starting from zero pipeline</div>
       <div class="cs-video-wrap">
         <iframe src="https://fast.wistia.net/embed/iframe/tgg77qu7cb?videoFoam=true"
           title="Smart Object Case Study" allowtransparency="true" frameborder="0" scrolling="no"
@@ -357,9 +387,23 @@
 
   <hr class="divider" />
 
+  <!-- PROOF WALL -->
+  <div class="proof-section">
+    <h2>Live campaign data from our clients:</h2>
+    <div class="proof-grid">
+      <img src="Assets/clcds.jpg" alt="Construction B2B campaign stats" />
+      <img src="Assets/futurr.jpg" alt="B2B Performance Marketing Agency campaign stats" />
+      <img src="Assets/gill.jpg" alt="M&A Advisory Firm campaign stats" />
+      <img src="Assets/top.jpg" alt="Business Exit Consulting campaign stats" />
+      <img src="Assets/utp.jpg" alt="B2B Accounting Firm campaign stats" />
+    </div>
+  </div>
+
+  <hr class="divider" />
+
   <!-- QUALIFIER -->
   <div class="qualifier-bar">
-    <strong>This page is for Marketing Agencies and B2B companies only.</strong> If you're in B2C, affiliate marketing, MLM, or not yet generating revenue — this is not for you.
+    <strong>This page is for Marketing Agencies and B2B companies only.</strong> If you're in B2C, affiliate marketing, MLM, or not yet generating revenue, this is not for you.
   </div>
 
   <!-- FOOTER -->
